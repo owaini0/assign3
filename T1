@@ -1,0 +1,9 @@
+Algorithm Euclidean(a, b)
+  Input: Two integers a and b, where a ≥ b and b ≥ 0
+  Output: The greatest common divisor of a and b
+
+  while b ≠ 0
+    temp ← b
+    b ← a mod b
+    a ← temp
+  return a
